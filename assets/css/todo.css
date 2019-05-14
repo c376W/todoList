@@ -1,4 +1,9 @@
+body{
+	background: #2980B9;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
 h1{
 	font-size: 24px;
 	margin:0;
@@ -17,6 +22,7 @@ li{
 	height:40px;
 	list-style: none;
 	line-height: 40px;
+	background-color:white;
 }
 
 li:nth-child(2n){
@@ -46,7 +52,7 @@ span{
 
 input{
 	width:100%;
-	padding:10px 40px;
+	padding:10px 20px;
 	background-color:#f4f6f9; 
 	box-sizing: border-box;
 	border:3px solid rgba(0,0,0,0);
